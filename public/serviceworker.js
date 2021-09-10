@@ -1,19 +1,13 @@
-const APP_PREFIX = 'FoodFest-';
+const APP_PREFIX = 'budget-tracker-';
 const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const FILES_TO_CACHE = [
   "./index.html",
-  "./events.html",
-  "./tickets.html",
-  "./schedule.html",
-  "./assets/css/style.css",
-  "./assets/css/bootstrap.css",
-  "./assets/css/tickets.css",
-  "./dist/app.bundle.js",
-  "./dist/events.bundle.js",
-  "./dist/tickets.bundle.js",
-  "./dist/schedule.bundle.js"
+  "./js/idb.js",
+  './js/index.js',
+  './css/styles.css',
+  './icons/icon-72x72'
 ];
 
 self.addEventListener('activate', function(e) {
